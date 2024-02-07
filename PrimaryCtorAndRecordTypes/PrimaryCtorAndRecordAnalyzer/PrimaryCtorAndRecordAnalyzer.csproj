@@ -11,7 +11,9 @@
 
         <RootNamespace>PrimaryCtorAndRecordTypes</RootNamespace>
 
-        <PackageId>PrimaryCtorAndRecordAnalyzer</PackageId>
+        <PackageId>PrimaryCtorAndRecord.Analyzers</PackageId>
+        <PackageLicenseFile>FILES\LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>FILES\README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
@@ -36,6 +38,11 @@
             <AutoGen>True</AutoGen>
             <DependentUpon>Resources.resx</DependentUpon>
         </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="../../LICENSE" Pack="true" PackagePath="FILES" />
+        <None Include="../../README.md" Pack="true" PackagePath="FILES" />
     </ItemGroup>
 
 </Project>
