@@ -38,7 +38,7 @@ namespace PrimaryCtorAndRecordTypes {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PrimaryCtorAndRecordAnalyzer.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PrimaryCtorAndRecordTypes.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -69,7 +69,7 @@ namespace PrimaryCtorAndRecordTypes {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Parameter &apos;{0}&apos; is modified..
+        ///   Looks up a localized string similar to Parameter &apos;{0}&apos; is modified.
         /// </summary>
         internal static string MA0001MessageFormat {
             get {
@@ -96,7 +96,7 @@ namespace PrimaryCtorAndRecordTypes {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Record must be constructed with named parameters..
+        ///   Looks up a localized string similar to Record must be constructed with named parameters.
         /// </summary>
         internal static string MA0002MessageFormat {
             get {
